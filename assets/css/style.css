@@ -1,5 +1,5 @@
 /* common code start */
-:root{
+:root {
     --light-color: #fff;
     --dark-color: #040404;
     --title-color: #51b56d;
@@ -15,35 +15,45 @@
     src: url(../fonts/Rubik-Bold.ttf);
 }
 
-.rubikr{
+.rubikr {
     font-family: rubikr;
 }
 
-.rubikb{
+.rubikb {
     font-family: rubikb;
 }
+
 /* common code end */
 
 /* difference section start */
+#difference {
+    background: #888888;
+}
 
-.difference-title p{
+.difference-title p {
     color: var(--title-color);
     font-weight: 700;
 }
-.difference-title h1{
+
+.difference-title h1 {
     font-weight: 700;
 }
 
 #difference .nav-link {
     color: var(--dark-color);
 
-    &:hover{
+    &:hover {
         background: #E0F2E5;
         color: #3f9467;
     }
-    &.active{
+
+    &.active {
         background: #51B56D;
         color: var(--light-color);
     }
+}
+
+.difference-content{
+    background: var(--light-color);
 }
 /* difference section end */
