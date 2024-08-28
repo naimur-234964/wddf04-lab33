@@ -1,0 +1,49 @@
+/* common code start */
+:root{
+    --light-color: #fff;
+    --dark-color: #040404;
+    --title-color: #51b56d;
+}
+
+@font-face {
+    font-family: rubikr;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: rubikb;
+    src: url(../fonts/Rubik-Bold.ttf);
+}
+
+.rubikr{
+    font-family: rubikr;
+}
+
+.rubikb{
+    font-family: rubikb;
+}
+/* common code end */
+
+/* difference section start */
+
+.difference-title p{
+    color: var(--title-color);
+    font-weight: 700;
+}
+.difference-title h1{
+    font-weight: 700;
+}
+
+#difference .nav-link {
+    color: var(--dark-color);
+
+    &:hover{
+        background: #E0F2E5;
+        color: #3f9467;
+    }
+    &.active{
+        background: #51B56D;
+        color: var(--light-color);
+    }
+}
+/* difference section end */
